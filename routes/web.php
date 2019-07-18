@@ -19,7 +19,6 @@ Auth::routes();
 
 // pages
 Route::get('/terms-of-service', 'PagesController@termsOfService')->name('tos');
-
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
