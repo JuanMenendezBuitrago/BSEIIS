@@ -1,0 +1,13 @@
+input {
+	box-shadow: none !important;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+	button {
+		width: 100%;
+	}
+}
+

@@ -1,0 +1,29 @@
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.full-height {
+	min-height: 100vh;
+}
+.is-text-centered {
+	text-align: center;
+}
+
+.is-paddingless-vertical{
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.is-paddingless-horizontal {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.is-underlined {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
